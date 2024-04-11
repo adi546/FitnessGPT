@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* align items to the top */
+    height: 100vh; /* Adjust this according to your layout */
+  }
+  
+  .content {
+    text-align: center; /* Center align content */
+    max-width: 600px; /* Limit the width of the content */
+    margin-top: 50px; /* Add some top margin for spacing */
+  }
+  
+  h1 {
+    font-size: 36px; /* Increase font size for the main heading */
+    margin-bottom: 20px; /* Add margin below the heading */
+  }
+  
+  label {
+    font-size: 18px; /* Set font size for the label */
+    display: block; /* Display the label as block element */
+    margin-bottom: 10px; /* Add some margin below the label */
+  }
+  
+  textarea {
+    width: 100%; /* Make the textarea fill the width of its container */
+    padding: 10px; /* Add padding for better appearance */
+    font-size: 16px; /* Set font size for the textarea */
+    border-radius: 5px; /* Add some border radius for a rounded appearance */
+    border: 1px solid #ccc; /* Add a border for better visibility */
+  }
+  
